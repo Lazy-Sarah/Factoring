@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head><script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+		<title>Page Title</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Basics of Factoring</h1>
+		<img src="keyboard.jpg" alt="Factoring Is Fun" width="700" height="300" class="center">
+		<h2> What is factoring?</h2>
+		<h3> To factor an equation means breaking it up into numbers that can be multiplied together to get the original number.</h3>
+		<h4> Let's try it!! Insert an equation in the following box:)</h4>
+	<form>
+		<input type="text" name="equation">
+		<!-- <input type="submit" value="SOLVE!" class="submit" id="solve"> -->
+		<a href="Website.html" shape="rect" type="button"><button type="button">SOLVE!</button></a>
+	</form>
+	<div id="formula" style="display:none;">
+		<p> Hi </p>
+	</div>
+	</body>
+	<script>$(document).ready(function(){
+    $("#solve").click(function(){
+        alert("hello");
+				$("#formula").show();
+    });
+});
+</script>
+</html>
