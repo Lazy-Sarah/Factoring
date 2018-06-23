@@ -1,5 +1,5 @@
 body {
-	background-color: lightgray;
+	background-color: #EAE6E5;
 }
 h1 {
 	color: #1f1f14;
@@ -10,4 +10,7 @@ h1 {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.submit{
+	background-color: #8FCB9B;
 }
